@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "jumpscaremod",
+  "version": "1.1.0+26.3",
+  "name": "Withered Foxy Jumpscare Mod (Fabric port)",
+  "description": "Every second there is a 1 in 10,000 chance of a Withered Foxy jumpscare. Fabric port of the NeoForge mod by Daviduwur (MIT).",
+  "authors": ["Daviduwur"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.jumpscaremod.JumpscareMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.3.x",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
